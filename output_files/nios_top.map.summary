@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Sep 17 20:33:16 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : nios_top
+Top-level Entity Name : nios_top
+Family : Cyclone 10 LP
+Total logic elements : 2,144
+    Total combinational functions : 1,916
+    Dedicated logic registers : 1,086
+Total registers : 1086
+Total pins : 18
+Total virtual pins : 0
+Total memory bits : 273,408
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

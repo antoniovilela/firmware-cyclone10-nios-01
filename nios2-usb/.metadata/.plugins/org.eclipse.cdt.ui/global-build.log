@@ -1,0 +1,1923 @@
+20:39:40 **** Clean-only build of configuration Nios II for project nios2_usb_bsp ****
+make clean 
+[BSP clean complete]
+20:39:44 **** Clean-only build of configuration Nios II for project nios2_usb ****
+make clean 
+[nios2_usb clean complete]
+20:39:58 **** Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+Compiling alt_alarm_start.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_alarm_start.o HAL/src/alt_alarm_start.c
+Compiling alt_busy_sleep.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_busy_sleep.o HAL/src/alt_busy_sleep.c
+Compiling alt_close.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_close.o HAL/src/alt_close.c
+Compiling alt_dcache_flush.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_dcache_flush.o HAL/src/alt_dcache_flush.c
+Compiling alt_dcache_flush_all.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_dcache_flush_all.o HAL/src/alt_dcache_flush_all.c
+Compiling alt_dcache_flush_no_writeback.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_dcache_flush_no_writeback.o HAL/src/alt_dcache_flush_no_writeback.c
+Compiling alt_dev.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_dev.o HAL/src/alt_dev.c
+Compiling alt_dev_llist_insert.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_dev_llist_insert.o HAL/src/alt_dev_llist_insert.c
+Compiling alt_dma_rxchan_open.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_dma_rxchan_open.o HAL/src/alt_dma_rxchan_open.c
+Compiling alt_dma_txchan_open.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_dma_txchan_open.o HAL/src/alt_dma_txchan_open.c
+Compiling alt_do_ctors.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_do_ctors.o HAL/src/alt_do_ctors.c
+Compiling alt_do_dtors.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_do_dtors.o HAL/src/alt_do_dtors.c
+Compiling alt_ecc_fatal_entry.S...
+nios2-elf-gcc -MP -MMD -c   '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global    -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/alt_ecc_fatal_entry.o HAL/src/alt_ecc_fatal_entry.S
+Compiling alt_ecc_fatal_exception.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_ecc_fatal_exception.o HAL/src/alt_ecc_fatal_exception.c
+Compiling alt_env_lock.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_env_lock.o HAL/src/alt_env_lock.c
+Compiling alt_environ.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_environ.o HAL/src/alt_environ.c
+Compiling alt_errno.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_errno.o HAL/src/alt_errno.c
+Compiling alt_exception_entry.S...
+nios2-elf-gcc -MP -MMD -c   '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global    -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/alt_exception_entry.o HAL/src/alt_exception_entry.S
+Compiling alt_exception_muldiv.S...
+nios2-elf-gcc -MP -MMD -c   '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global    -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/alt_exception_muldiv.o HAL/src/alt_exception_muldiv.S
+Compiling alt_exception_trap.S...
+nios2-elf-gcc -MP -MMD -c   '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global    -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/alt_exception_trap.o HAL/src/alt_exception_trap.S
+Compiling alt_execve.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_execve.o HAL/src/alt_execve.c
+Compiling alt_exit.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_exit.o HAL/src/alt_exit.c
+Compiling alt_fcntl.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_fcntl.o HAL/src/alt_fcntl.c
+Compiling alt_fd_lock.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_fd_lock.o HAL/src/alt_fd_lock.c
+Compiling alt_fd_unlock.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_fd_unlock.o HAL/src/alt_fd_unlock.c
+Compiling alt_find_dev.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_find_dev.o HAL/src/alt_find_dev.c
+Compiling alt_find_file.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_find_file.o HAL/src/alt_find_file.c
+Compiling alt_flash_dev.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_flash_dev.o HAL/src/alt_flash_dev.c
+Compiling alt_fork.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_fork.o HAL/src/alt_fork.c
+Compiling alt_fs_reg.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_fs_reg.o HAL/src/alt_fs_reg.c
+Compiling alt_fstat.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_fstat.o HAL/src/alt_fstat.c
+Compiling alt_get_fd.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_get_fd.o HAL/src/alt_get_fd.c
+Compiling alt_getchar.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_getchar.o HAL/src/alt_getchar.c
+Compiling alt_getpid.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_getpid.o HAL/src/alt_getpid.c
+Compiling alt_gettod.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_gettod.o HAL/src/alt_gettod.c
+Compiling alt_gmon.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_gmon.o HAL/src/alt_gmon.c
+Compiling alt_icache_flush.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_icache_flush.o HAL/src/alt_icache_flush.c
+Compiling alt_icache_flush_all.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_icache_flush_all.o HAL/src/alt_icache_flush_all.c
+Compiling alt_iic.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_iic.o HAL/src/alt_iic.c
+Compiling alt_iic_isr_register.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_iic_isr_register.o HAL/src/alt_iic_isr_register.c
+Compiling alt_instruction_exception_entry.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_instruction_exception_entry.o HAL/src/alt_instruction_exception_entry.c
+Compiling alt_instruction_exception_register.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_instruction_exception_register.o HAL/src/alt_instruction_exception_register.c
+Compiling alt_io_redirect.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_io_redirect.o HAL/src/alt_io_redirect.c
+Compiling alt_ioctl.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_ioctl.o HAL/src/alt_ioctl.c
+Compiling alt_irq_entry.S...
+nios2-elf-gcc -MP -MMD -c   '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global    -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/alt_irq_entry.o HAL/src/alt_irq_entry.S
+Compiling alt_irq_handler.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_irq_handler.o HAL/src/alt_irq_handler.c
+Compiling alt_irq_register.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_irq_register.o HAL/src/alt_irq_register.c
+Compiling alt_irq_vars.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_irq_vars.o HAL/src/alt_irq_vars.c
+Compiling alt_isatty.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_isatty.o HAL/src/alt_isatty.c
+Compiling alt_kill.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_kill.o HAL/src/alt_kill.c
+Compiling alt_link.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_link.o HAL/src/alt_link.c
+Compiling alt_load.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_load.o HAL/src/alt_load.c
+Compiling alt_log_macro.S...
+nios2-elf-gcc -MP -MMD -c   '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global    -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/alt_log_macro.o HAL/src/alt_log_macro.S
+Compiling alt_log_printf.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_log_printf.o HAL/src/alt_log_printf.c
+Compiling alt_lseek.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_lseek.o HAL/src/alt_lseek.c
+Compiling alt_main.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_main.o HAL/src/alt_main.c
+Compiling alt_malloc_lock.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_malloc_lock.o HAL/src/alt_malloc_lock.c
+Compiling alt_mcount.S...
+nios2-elf-gcc -MP -MMD -c   '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global    -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/alt_mcount.o HAL/src/alt_mcount.S
+Compiling alt_open.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_open.o HAL/src/alt_open.c
+Compiling alt_printf.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_printf.o HAL/src/alt_printf.c
+Compiling alt_putchar.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_putchar.o HAL/src/alt_putchar.c
+Compiling alt_putcharbuf.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_putcharbuf.o HAL/src/alt_putcharbuf.c
+Compiling alt_putstr.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_putstr.o HAL/src/alt_putstr.c
+Compiling alt_read.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_read.o HAL/src/alt_read.c
+Compiling alt_release_fd.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_release_fd.o HAL/src/alt_release_fd.c
+Compiling alt_remap_cached.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_remap_cached.o HAL/src/alt_remap_cached.c
+Compiling alt_remap_uncached.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_remap_uncached.o HAL/src/alt_remap_uncached.c
+Compiling alt_rename.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_rename.o HAL/src/alt_rename.c
+Compiling alt_sbrk.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_sbrk.o HAL/src/alt_sbrk.c
+Compiling alt_settod.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_settod.o HAL/src/alt_settod.c
+Compiling alt_software_exception.S...
+nios2-elf-gcc -MP -MMD -c   '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global    -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/alt_software_exception.o HAL/src/alt_software_exception.S
+Compiling alt_stat.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_stat.o HAL/src/alt_stat.c
+Compiling alt_tick.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_tick.o HAL/src/alt_tick.c
+Compiling alt_times.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_times.o HAL/src/alt_times.c
+Compiling alt_uncached_free.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_uncached_free.o HAL/src/alt_uncached_free.c
+Compiling alt_uncached_malloc.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_uncached_malloc.o HAL/src/alt_uncached_malloc.c
+Compiling alt_unlink.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_unlink.o HAL/src/alt_unlink.c
+Compiling alt_usleep.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_usleep.o HAL/src/alt_usleep.c
+Compiling alt_wait.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_wait.o HAL/src/alt_wait.c
+Compiling alt_write.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_write.o HAL/src/alt_write.c
+Compiling altera_nios2_gen2_irq.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/altera_nios2_gen2_irq.o HAL/src/altera_nios2_gen2_irq.c
+Compiling crt0.S...
+nios2-elf-gcc -MP -MMD -c   '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global    -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/crt0.o HAL/src/crt0.S
+Compiling alt_sys_init.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/alt_sys_init.o alt_sys_init.c
+Compiling altera_avalon_jtag_uart_fd.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_jtag_uart_fd.o drivers/src/altera_avalon_jtag_uart_fd.c
+Compiling altera_avalon_jtag_uart_init.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_jtag_uart_init.o drivers/src/altera_avalon_jtag_uart_init.c
+Compiling altera_avalon_jtag_uart_ioctl.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_jtag_uart_ioctl.o drivers/src/altera_avalon_jtag_uart_ioctl.c
+Compiling altera_avalon_jtag_uart_read.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_jtag_uart_read.o drivers/src/altera_avalon_jtag_uart_read.c
+Compiling altera_avalon_jtag_uart_write.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_jtag_uart_write.o drivers/src/altera_avalon_jtag_uart_write.c
+Compiling altera_avalon_uart_fd.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_uart_fd.o drivers/src/altera_avalon_uart_fd.c
+Compiling altera_avalon_uart_init.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_uart_init.o drivers/src/altera_avalon_uart_init.c
+Compiling altera_avalon_uart_ioctl.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_uart_ioctl.o drivers/src/altera_avalon_uart_ioctl.c
+Compiling altera_avalon_uart_read.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_uart_read.o drivers/src/altera_avalon_uart_read.c
+Compiling altera_avalon_uart_write.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_uart_write.o drivers/src/altera_avalon_uart_write.c
+Creating libhal_bsp.a...
+rm -f -f libhal_bsp.a
+nios2-elf-ar -src libhal_bsp.a obj/HAL/src/alt_alarm_start.o obj/HAL/src/alt_busy_sleep.o obj/HAL/src/alt_close.o obj/HAL/src/alt_dcache_flush.o obj/HAL/src/alt_dcache_flush_all.o obj/HAL/src/alt_dcache_flush_no_writeback.o obj/HAL/src/alt_dev.o obj/HAL/src/alt_dev_llist_insert.o obj/HAL/src/alt_dma_rxchan_open.o obj/HAL/src/alt_dma_txchan_open.o obj/HAL/src/alt_do_ctors.o obj/HAL/src/alt_do_dtors.o obj/HAL/src/alt_ecc_fatal_entry.o obj/HAL/src/alt_ecc_fatal_exception.o obj/HAL/src/alt_env_lock.o obj/HAL/src/alt_environ.o obj/HAL/src/alt_errno.o obj/HAL/src/alt_exception_entry.o obj/HAL/src/alt_exception_muldiv.o obj/HAL/src/alt_exception_trap.o obj/HAL/src/alt_execve.o obj/HAL/src/alt_exit.o obj/HAL/src/alt_fcntl.o obj/HAL/src/alt_fd_lock.o obj/HAL/src/alt_fd_unlock.o obj/HAL/src/alt_find_dev.o obj/HAL/src/alt_find_file.o obj/HAL/src/alt_flash_dev.o obj/HAL/src/alt_fork.o obj/HAL/src/alt_fs_reg.o obj/HAL/src/alt_fstat.o obj/HAL/src/alt_get_fd.o obj/HAL/src/alt_getchar.o obj/HAL/src/alt_getpid.o obj/HAL/src/alt_gettod.o obj/HAL/src/alt_gmon.o obj/HAL/src/alt_icache_flush.o obj/HAL/src/alt_icache_flush_all.o obj/HAL/src/alt_iic.o obj/HAL/src/alt_iic_isr_register.o obj/HAL/src/alt_instruction_exception_entry.o obj/HAL/src/alt_instruction_exception_register.o obj/HAL/src/alt_io_redirect.o obj/HAL/src/alt_ioctl.o obj/HAL/src/alt_irq_entry.o obj/HAL/src/alt_irq_handler.o obj/HAL/src/alt_irq_register.o obj/HAL/src/alt_irq_vars.o obj/HAL/src/alt_isatty.o obj/HAL/src/alt_kill.o obj/HAL/src/alt_link.o obj/HAL/src/alt_load.o obj/HAL/src/alt_log_macro.o obj/HAL/src/alt_log_printf.o obj/HAL/src/alt_lseek.o obj/HAL/src/alt_main.o obj/HAL/src/alt_malloc_lock.o obj/HAL/src/alt_mcount.o obj/HAL/src/alt_open.o obj/HAL/src/alt_printf.o obj/HAL/src/alt_putchar.o obj/HAL/src/alt_putcharbuf.o obj/HAL/src/alt_putstr.o obj/HAL/src/alt_read.o obj/HAL/src/alt_release_fd.o obj/HAL/src/alt_remap_cached.o obj/HAL/src/alt_remap_uncached.o obj/HAL/src/alt_rename.o obj/HAL/src/alt_sbrk.o obj/HAL/src/alt_settod.o obj/HAL/src/alt_software_exception.o obj/HAL/src/alt_stat.o obj/HAL/src/alt_tick.o obj/HAL/src/alt_times.o obj/HAL/src/alt_uncached_free.o obj/HAL/src/alt_uncached_malloc.o obj/HAL/src/alt_unlink.o obj/HAL/src/alt_usleep.o obj/HAL/src/alt_wait.o obj/HAL/src/alt_write.o obj/HAL/src/altera_nios2_gen2_irq.o obj/HAL/src/crt0.o obj/alt_sys_init.o obj/drivers/src/altera_avalon_jtag_uart_fd.o obj/drivers/src/altera_avalon_jtag_uart_init.o obj/drivers/src/altera_avalon_jtag_uart_ioctl.o obj/drivers/src/altera_avalon_jtag_uart_read.o obj/drivers/src/altera_avalon_jtag_uart_write.o obj/drivers/src/altera_avalon_uart_fd.o obj/drivers/src/altera_avalon_uart_init.o obj/drivers/src/altera_avalon_uart_ioctl.o obj/drivers/src/altera_avalon_uart_read.o obj/drivers/src/altera_avalon_uart_write.o
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 616 Bytes program size (code + initialized data).
+Info:                 31 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+20:40:10 **** Build of configuration Nios II for project nios2_usb_bsp ****
+make all 
+[BSP build complete]
+20:41:43 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+[nios2_usb build complete]
+21:01:17 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:90:4: warning: implicit declaration of function 'IOWR' [-Wimplicit-function-declaration]
+    IOWR(UART_0_BASE,1,"*");
+    ^
+hello_world_small.c:90:9: error: 'UART_0_BASE' undeclared (first use in this function)
+    IOWR(UART_0_BASE,1,"*");
+         ^
+hello_world_small.c:90:9: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [obj/default/hello_world_small.o] Error 1
+21:02:18 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:90:4: warning: implicit declaration of function 'IOWR' [-Wimplicit-function-declaration]
+    IOWR(UART_0_BASE,1,'*');
+    ^
+hello_world_small.c:90:9: error: 'UART_0_BASE' undeclared (first use in this function)
+    IOWR(UART_0_BASE,1,'*');
+         ^
+hello_world_small.c:90:9: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [obj/default/hello_world_small.o] Error 1
+21:05:02 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:90:4: warning: implicit declaration of function 'IOWR_ALTERA_AVALON_UART_TXDATA' [-Wimplicit-function-declaration]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,'*');
+    ^
+hello_world_small.c:90:35: error: 'UART_0_BASE' undeclared (first use in this function)
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,'*');
+                                   ^
+hello_world_small.c:90:35: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [obj/default/hello_world_small.o] Error 1
+21:07:17 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 632 Bytes program size (code + initialized data).
+Info:                 31 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+21:09:06 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 660 Bytes program size (code + initialized data).
+Info:                 31 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+21:10:11 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:95:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 10000000 );
+    ^
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 1312 Bytes program size (code + initialized data).
+Info:                 30 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+21:12:06 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:95:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 100000 );
+    ^
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 1312 Bytes program size (code + initialized data).
+Info:                 30 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+21:17:03 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from hello_world_small.c:82:0:
+hello_world_small.c: In function 'main':
+../nios2_usb_bsp/system.h:351:21: warning: passing argument 1 of 'altera_avalon_uart_write_fd' makes pointer from integer without a cast [-Wint-conversion]
+ #define UART_0_BASE 0x11020
+                     ^
+hello_world_small.c:95:32: note: in expansion of macro 'UART_0_BASE'
+    altera_avalon_uart_write_fd(UART_0_BASE,word,20);
+                                ^
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart.h:294:0,
+                 from hello_world_small.c:83:
+../nios2_usb_bsp//drivers/inc/altera_avalon_uart_fd.h:45:12: note: expected 'alt_fd * {aka struct alt_fd_s *}' but argument is of type 'int'
+ extern int altera_avalon_uart_write_fd (alt_fd* fd, const char* ptr,
+            ^
+hello_world_small.c:96:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 100000 );
+    ^
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 1664 Bytes program size (code + initialized data).
+Info:                 30 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+21:18:31 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:96:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:96:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:97:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 100000 );
+    ^
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 1384 Bytes program size (code + initialized data).
+Info:                 30 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+21:20:34 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:96:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:96:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:97:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 500000 );
+    ^
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 1384 Bytes program size (code + initialized data).
+Info:                 30 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+21:21:22 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:96:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:96:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:97:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 500000 );
+    ^
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 1340 Bytes program size (code + initialized data).
+Info:                 30 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+21:22:06 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:96:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:96:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:97:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 500000 );
+    ^
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 1340 Bytes program size (code + initialized data).
+Info:                 30 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+21:22:33 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:96:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:96:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:97:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 500000 );
+    ^
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 1336 Bytes program size (code + initialized data).
+Info:                 30 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+21:27:46 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:96:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:96:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 684 Bytes program size (code + initialized data).
+Info:                 31 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+21:27:49 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+[nios2_usb build complete]
+21:28:15 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:95:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:95:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 684 Bytes program size (code + initialized data).
+Info:                 31 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+21:29:44 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:96:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:96:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:97:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 1 );
+    ^
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 1332 Bytes program size (code + initialized data).
+Info:                 30 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+21:30:04 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+[nios2_usb build complete]
+21:30:27 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:96:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:96:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:97:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 10 );
+    ^
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 1332 Bytes program size (code + initialized data).
+Info:                 30 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+21:31:05 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:96:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:96:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:97:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 20 );
+    ^
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 1332 Bytes program size (code + initialized data).
+Info:                 30 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+21:31:27 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:96:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:96:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:97:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 30 );
+    ^
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 1332 Bytes program size (code + initialized data).
+Info:                 30 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+21:31:43 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:96:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:96:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:97:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 40 );
+    ^
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 1332 Bytes program size (code + initialized data).
+Info:                 30 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+21:32:11 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:96:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:96:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:97:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 42 );
+    ^
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 1332 Bytes program size (code + initialized data).
+Info:                 30 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+21:32:45 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:96:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:96:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:97:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 45 );
+    ^
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 1332 Bytes program size (code + initialized data).
+Info:                 30 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+21:46:24 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:96:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:96:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:97:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 45 );
+    ^
+hello_world_small.c:102:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf(IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE));
+    ^
+hello_world_small.c:102:4: warning: incompatible implicit declaration of built-in function 'printf'
+hello_world_small.c:102:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+../nios2_usb_bsp//HAL/inc/io.h:73:3: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+   __builtin_ldwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)))
+   ^
+../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:56:9: note: in expansion of macro 'IORD'
+         IORD(base, ALTERA_AVALON_UART_STATUS_REG) 
+         ^
+hello_world_small.c:102:11: note: in expansion of macro 'IORD_ALTERA_AVALON_UART_STATUS'
+    printf(IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE));
+           ^
+../nios2_usb_bsp//HAL/inc/io.h:73:3: note: expected 'const char *' but argument is of type 'int'
+   __builtin_ldwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)))
+   ^
+../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:56:9: note: in expansion of macro 'IORD'
+         IORD(base, ALTERA_AVALON_UART_STATUS_REG) 
+         ^
+hello_world_small.c:102:11: note: in expansion of macro 'IORD_ALTERA_AVALON_UART_STATUS'
+    printf(IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE));
+           ^
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 3528 Bytes program size (code + initialized data).
+Info:                 28 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+21:47:08 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:96:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:96:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:97:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 45 );
+    ^
+hello_world_small.c:102:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("%d",IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE));
+    ^
+hello_world_small.c:102:4: warning: incompatible implicit declaration of built-in function 'printf'
+hello_world_small.c:102:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 3540 Bytes program size (code + initialized data).
+Info:                 28 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+21:47:30 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:96:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:96:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:97:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 45 );
+    ^
+hello_world_small.c:102:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("%d\n",IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE));
+    ^
+hello_world_small.c:102:4: warning: incompatible implicit declaration of built-in function 'printf'
+hello_world_small.c:102:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 3540 Bytes program size (code + initialized data).
+Info:                 28 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+21:48:46 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:96:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:96:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:97:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 45 );
+    ^
+hello_world_small.c:103:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("%d\n",IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE));
+    ^
+hello_world_small.c:103:4: warning: incompatible implicit declaration of built-in function 'printf'
+hello_world_small.c:103:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 3552 Bytes program size (code + initialized data).
+Info:                 28 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+21:50:33 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:96:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:96:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:97:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 45 );
+    ^
+hello_world_small.c:103:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("%h\n",IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE));
+    ^
+hello_world_small.c:103:4: warning: incompatible implicit declaration of built-in function 'printf'
+hello_world_small.c:103:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+hello_world_small.c:103:11: warning: unknown conversion type character 0xa in format [-Wformat=]
+    printf("%h\n",IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE));
+           ^
+hello_world_small.c:103:11: warning: too many arguments for format [-Wformat-extra-args]
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 3552 Bytes program size (code + initialized data).
+Info:                 28 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+21:50:51 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:96:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:96:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:97:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 45 );
+    ^
+hello_world_small.c:103:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("%x\n",IORD_ALTERA_AVALON_UART_STATUS(UART_0_BASE));
+    ^
+hello_world_small.c:103:4: warning: incompatible implicit declaration of built-in function 'printf'
+hello_world_small.c:103:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 3552 Bytes program size (code + initialized data).
+Info:                 28 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+21:52:38 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:96:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:96:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:97:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 45 );
+    ^
+hello_world_small.c:103:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("%c\n",IORD_ALTERA_AVALON_UART_RXDATA(UART_0_BASE));
+    ^
+hello_world_small.c:103:4: warning: incompatible implicit declaration of built-in function 'printf'
+hello_world_small.c:103:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 3552 Bytes program size (code + initialized data).
+Info:                 28 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+21:55:44 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:96:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:96:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:97:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 45 );
+    ^
+hello_world_small.c:103:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("%c\n",getc(UART_0_BASE));
+    ^
+hello_world_small.c:103:4: warning: incompatible implicit declaration of built-in function 'printf'
+hello_world_small.c:103:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+hello_world_small.c:103:18: warning: implicit declaration of function 'getc' [-Wimplicit-function-declaration]
+    printf("%c\n",getc(UART_0_BASE));
+                  ^
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+obj/default/hello_world_small.o: In function `main':
+D:\Lab-Instrumentation\QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717\Software\cyclone10-nios-01\software\nios2_usb/hello_world_small.c:103: undefined reference to `getc'
+collect2.exe: error: ld returned 1 exit status
+make: *** [nios2_usb.elf] Error 1
+21:56:21 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:97:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:97:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:98:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 45 );
+    ^
+In file included from hello_world_small.c:82:0:
+../nios2_usb_bsp/system.h:351:21: warning: passing argument 1 of 'getc' makes pointer from integer without a cast [-Wint-conversion]
+ #define UART_0_BASE 0x11020
+                     ^
+hello_world_small.c:104:23: note: in expansion of macro 'UART_0_BASE'
+    printf("%c\n",getc(UART_0_BASE));
+                       ^
+In file included from c:\intelfpga_lite\18.1\nios2eds\bin\gnu\h-x86_64-mingw32\nios2-elf\include\stdio.h:29:0,
+                 from hello_world_small.c:86:
+c:\intelfpga_lite\18.1\nios2eds\bin\gnu\h-x86_64-mingw32\nios2-elf\include\stdio.h:231:5: note: expected 'FILE * {aka struct __sFILE *}' but argument is of type 'int'
+ int _EXFUN(getc, (FILE *));
+     ^
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+obj/default/hello_world_small.o: In function `main':
+D:\Lab-Instrumentation\QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717\Software\cyclone10-nios-01\software\nios2_usb/hello_world_small.c:104: undefined reference to `getc'
+collect2.exe: error: ld returned 1 exit status
+make: *** [nios2_usb.elf] Error 1
+21:56:46 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+obj/default/hello_world_small.o: In function `main':
+D:\Lab-Instrumentation\QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717\Software\cyclone10-nios-01\software\nios2_usb/hello_world_small.c:104: undefined reference to `getc'
+collect2.exe: error: ld returned 1 exit status
+make: *** [nios2_usb.elf] Error 1
+21:56:54 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+obj/default/hello_world_small.o: In function `main':
+D:\Lab-Instrumentation\QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717\Software\cyclone10-nios-01\software\nios2_usb/hello_world_small.c:104: undefined reference to `getc'
+collect2.exe: error: ld returned 1 exit status
+make: *** [nios2_usb.elf] Error 1
+21:57:05 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+obj/default/hello_world_small.o: In function `main':
+D:\Lab-Instrumentation\QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717\Software\cyclone10-nios-01\software\nios2_usb/hello_world_small.c:104: undefined reference to `getc'
+collect2.exe: error: ld returned 1 exit status
+make: *** [nios2_usb.elf] Error 1
+22:02:31 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:97:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:97:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:98:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 45 );
+    ^
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 3556 Bytes program size (code + initialized data).
+Info:                 28 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+22:18:16 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:97:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:97:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:98:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 45 );
+    ^
+hello_world_small.c:105:11: error: empty character constant
+    if (v!='')
+           ^
+make: *** [obj/default/hello_world_small.o] Error 1
+22:18:30 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:97:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:97:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:98:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 45 );
+    ^
+hello_world_small.c:105:11: error: empty character constant
+    if (v!='')
+           ^
+make: *** [obj/default/hello_world_small.o] Error 1
+22:19:14 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:97:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:97:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:98:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 45 );
+    ^
+hello_world_small.c:105:11: error: empty character constant
+    if (v!='')
+           ^
+make: *** [obj/default/hello_world_small.o] Error 1
+22:20:31 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:97:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:97:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:98:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 45 );
+    ^
+hello_world_small.c:105:11: error: empty character constant
+    if (v!='')
+           ^
+make: *** [obj/default/hello_world_small.o] Error 1
+22:20:44 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:97:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:97:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:98:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 45 );
+    ^
+hello_world_small.c:105:9: warning: comparison between pointer and integer
+    if (v!=NULL)
+         ^
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 3568 Bytes program size (code + initialized data).
+Info:                 28 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+22:20:58 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+[nios2_usb build complete]
+22:21:49 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+[nios2_usb build complete]
+22:22:26 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+[nios2_usb build complete]
+22:25:45 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+[nios2_usb build complete]
+22:26:44 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:97:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:97:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:98:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 45 );
+    ^
+hello_world_small.c:105:9: warning: comparison between pointer and integer
+    if (v!=NULL)
+         ^
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 3568 Bytes program size (code + initialized data).
+Info:                 28 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+22:36:40 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:97:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:97:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:98:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 45 );
+    ^
+hello_world_small.c:102:13: error: 'uart_status' undeclared (first use in this function)
+    while (!(uart_status=IORD(UART_0_BASE, 2) & 0x80));
+             ^
+hello_world_small.c:102:13: note: each undeclared identifier is reported only once for each function it appears in
+hello_world_small.c:104:15: warning: passing argument 1 of 'alt_putstr' makes pointer from integer without a cast [-Wint-conversion]
+    alt_putstr(c);
+               ^
+In file included from hello_world_small.c:81:0:
+../nios2_usb_bsp//HAL/inc/sys/alt_stdio.h:55:5: note: expected 'const char *' but argument is of type 'char'
+ int alt_putstr(const char* str);
+     ^
+make: *** [obj/default/hello_world_small.o] Error 1
+22:38:06 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:97:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:97:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:98:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 45 );
+    ^
+hello_world_small.c:105:15: warning: passing argument 1 of 'alt_putstr' makes pointer from integer without a cast [-Wint-conversion]
+    alt_putstr(c);
+               ^
+In file included from hello_world_small.c:81:0:
+../nios2_usb_bsp//HAL/inc/sys/alt_stdio.h:55:5: note: expected 'const char *' but argument is of type 'char'
+ int alt_putstr(const char* str);
+     ^
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 1364 Bytes program size (code + initialized data).
+Info:                 30 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+22:39:28 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:97:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:97:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:98:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 45 );
+    ^
+hello_world_small.c:105:11: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+    printf(c);
+           ^
+In file included from c:\intelfpga_lite\18.1\nios2eds\bin\gnu\h-x86_64-mingw32\nios2-elf\include\stdio.h:29:0,
+                 from hello_world_small.c:86:
+c:\intelfpga_lite\18.1\nios2eds\bin\gnu\h-x86_64-mingw32\nios2-elf\include\stdio.h:215:5: note: expected 'const char * restrict' but argument is of type 'char'
+ int _EXFUN(printf, (const char *__restrict, ...)
+     ^
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 3560 Bytes program size (code + initialized data).
+Info:                 28 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+22:40:22 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:97:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:97:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:98:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 45 );
+    ^
+hello_world_small.c:105:11: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+    printf("%s\n",c);
+           ^
+hello_world_small.c:105:11: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 3572 Bytes program size (code + initialized data).
+Info:                 28 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+22:54:15 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:101:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:101:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:102:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 45 );
+    ^
+hello_world_small.c:109:11: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+    printf("%s\n",c);
+           ^
+hello_world_small.c:109:11: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 3572 Bytes program size (code + initialized data).
+Info:                 28 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+23:10:39 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:101:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:101:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:102:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 45 );
+    ^
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 3572 Bytes program size (code + initialized data).
+Info:                 28 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+23:15:20 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:101:51: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+                                                   ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:101:4: note: in expansion of macro 'IOWR_ALTERA_AVALON_UART_TXDATA'
+    IOWR_ALTERA_AVALON_UART_TXDATA(UART_0_BASE,word[i]);
+    ^
+hello_world_small.c:102:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep( 45 );
+    ^
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 3572 Bytes program size (code + initialized data).
+Info:                 28 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+23:19:02 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:100:27: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR(UART_0_BASE,1,word[i]);
+                           ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 3440 Bytes program size (code + initialized data).
+Info:                 28 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+23:26:01 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:100:27: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR(UART_0_BASE,1,word[i]);
+                           ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:112:11: warning: comparison between pointer and integer
+    if ( c == "\n" )
+           ^
+hello_world_small.c:112:11: warning: comparison with string literal results in unspecified behavior [-Waddress]
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 3552 Bytes program size (code + initialized data).
+Info:                 28 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+23:28:23 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:100:27: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR(UART_0_BASE,1,word[i]);
+                           ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:112:11: warning: comparison between pointer and integer
+    if ( c == "\n" ) {
+           ^
+hello_world_small.c:112:11: warning: comparison with string literal results in unspecified behavior [-Waddress]
+hello_world_small.c:114:11: error: assignment to expression with array type
+     INPUT = "";
+           ^
+make: *** [obj/default/hello_world_small.o] Error 1
+23:28:46 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:100:27: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR(UART_0_BASE,1,word[i]);
+                           ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:114:11: error: assignment to expression with array type
+     INPUT = "";
+           ^
+make: *** [obj/default/hello_world_small.o] Error 1
+23:29:16 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:100:27: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR(UART_0_BASE,1,word[i]);
+                           ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:114:11: error: assignment to expression with array type
+     INPUT = "";
+           ^
+make: *** [obj/default/hello_world_small.o] Error 1
+23:31:35 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:100:27: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR(UART_0_BASE,1,word[i]);
+                           ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:114:20: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+     sprintf(INPUT, "");
+                    ^
+hello_world_small.c:114:20: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 3604 Bytes program size (code + initialized data).
+Info:                 28 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+23:34:32 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:100:27: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR(UART_0_BASE,1,word[i]);
+                           ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:114:20: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+     sprintf(INPUT, "");
+                    ^
+hello_world_small.c:114:20: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 3800 Bytes program size (code + initialized data).
+Info:                 28 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+23:35:15 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:100:27: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR(UART_0_BASE,1,word[i]);
+                           ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:114:20: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+     sprintf(INPUT, "");
+                    ^
+hello_world_small.c:114:20: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 3576 Bytes program size (code + initialized data).
+Info:                 28 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+23:36:06 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:100:27: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR(UART_0_BASE,1,word[i]);
+                           ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:111:20: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+     sprintf(INPUT, "");
+                    ^
+hello_world_small.c:111:20: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 3584 Bytes program size (code + initialized data).
+Info:                 28 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+23:37:01 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:100:27: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR(UART_0_BASE,1,word[i]);
+                           ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:111:12: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+     printf('\n');
+            ^
+In file included from c:\intelfpga_lite\18.1\nios2eds\bin\gnu\h-x86_64-mingw32\nios2-elf\include\stdio.h:29:0,
+                 from hello_world_small.c:86:
+c:\intelfpga_lite\18.1\nios2eds\bin\gnu\h-x86_64-mingw32\nios2-elf\include\stdio.h:215:5: note: expected 'const char * restrict' but argument is of type 'int'
+ int _EXFUN(printf, (const char *__restrict, ...)
+     ^
+hello_world_small.c:112:20: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+     sprintf(INPUT, "");
+                    ^
+hello_world_small.c:112:20: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 3592 Bytes program size (code + initialized data).
+Info:                 28 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]
+23:37:40 **** Incremental Build of configuration Nios II for project nios2_usb ****
+make all 
+Info: Building ../nios2_usb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../nios2_usb_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../nios2_usb_bsp//HAL/inc -I../nios2_usb_bsp/ -I../nios2_usb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../nios2_usb_bsp//drivers/inc/altera_avalon_uart_regs.h:34:0,
+                 from hello_world_small.c:84:
+hello_world_small.c: In function 'main':
+hello_world_small.c:100:27: warning: array subscript has type 'char' [-Wchar-subscripts]
+    IOWR(UART_0_BASE,1,word[i]);
+                           ^
+../nios2_usb_bsp//HAL/inc/io.h:75:66: note: in definition of macro 'IOWR'
+   __builtin_stwio (__IO_CALC_ADDRESS_NATIVE ((BASE), (REGNUM)), (DATA))
+                                                                  ^
+hello_world_small.c:112:20: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+     sprintf(INPUT, "");
+                    ^
+hello_world_small.c:112:20: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+Info: Linking nios2_usb.elf
+nios2-elf-g++  -T'../nios2_usb_bsp//linker.x' -msys-crt0='../nios2_usb_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../nios2_usb_bsp/  -msmallc  -Wl,-Map=nios2_usb.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o nios2_usb.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert nios2_usb.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name processor --quartus_project_dir "D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01" --jdi ../..//output_files/nios_top.jdi --sopcinfo D:/Lab-Instrumentation/QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717/Software/cyclone10-nios-01/software/nios2_usb_bsp/../../processor.sopcinfo
+Info: (nios2_usb.elf) 3800 Bytes program size (code + initialized data).
+Info:                 28 KBytes free for stack + heap.
+Info: Creating nios2_usb.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source nios2_usb.elf >nios2_usb.objdump
+[nios2_usb build complete]

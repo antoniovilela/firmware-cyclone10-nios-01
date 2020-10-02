@@ -1,0 +1,41 @@
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+
+# Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+# File: D:\Lab-Instrumentation\QMTECH_CYCLONE_10_STARTER_KIT_V01_20190717\Software\cyclone10-nios-01\output_files\cyclone10-nios-01.csv
+# Generated on: Wed Sep 02 17:44:13 2020
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Strict Preservation
+altera_reserved_tck,Input,,,,,,,,,
+altera_reserved_tdi,Input,,,,,,,,,
+altera_reserved_tdo,Output,,,,,,,,,
+altera_reserved_tms,Input,,,,,,,,,
+clk,Input,PIN_G1,1,B1_N1,,,,,,
+led[1],Output,PIN_W17,4,B4_N0,,,,,,
+led[0],Output,PIN_Y17,4,B4_N0,,,,,,
+reset,Input,PIN_P3,2,B2_N0,,,,,,
+seg[7],Output,PIN_W19,5,B5_N1,,,,,,
+seg[6],Output,PIN_R20,5,B5_N1,,,,,,
+seg[5],Output,PIN_W20,5,B5_N1,,,,,,
+seg[4],Output,PIN_AA18,4,B4_N0,,,,,,
+seg[3],Output,PIN_AB19,4,B4_N0,,,,,,
+seg[2],Output,PIN_U20,5,B5_N1,,,,,,
+seg[1],Output,PIN_R19,5,B5_N0,,,,,,
+seg[0],Output,PIN_AA19,4,B4_N0,,,,,,
+seg_en[2],Output,PIN_R18,5,B5_N0,,,,,,
+seg_en[1],Output,PIN_U19,5,B5_N1,,,,,,
+seg_en[0],Output,PIN_AB18,4,B4_N0,,,,,,
+sw,Input,PIN_P4,2,B2_N0,,,,,,

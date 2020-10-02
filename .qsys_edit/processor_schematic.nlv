@@ -1,0 +1,26 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst processor -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst processor.SEG -pg 1 -lvl 3 -y 230
+preplace inst processor.nios2_gen2_0.clock_bridge -pg 1
+preplace inst processor.nios2_gen2_0 -pg 1 -lvl 2 -y 90
+preplace inst processor.clk_0 -pg 1 -lvl 1 -y 110
+preplace inst processor.SW -pg 1 -lvl 3 -y 330
+preplace inst processor.SEG_EN -pg 1 -lvl 3 -y 430
+preplace inst processor.LED -pg 1 -lvl 3 -y 530
+preplace inst processor.onchip_memory2_0 -pg 1 -lvl 3 -y 50
+preplace inst processor.nios2_gen2_0.cpu -pg 1
+preplace inst processor.nios2_gen2_0.reset_bridge -pg 1
+preplace inst processor.jtag_uart_0 -pg 1 -lvl 3 -y 130
+preplace netloc INTERCONNECT<net_container>processor</net_container>(MASTER)nios2_gen2_0.instruction_master,(SLAVE)jtag_uart_0.avalon_jtag_slave,(SLAVE)onchip_memory2_0.s1,(SLAVE)nios2_gen2_0.debug_mem_slave,(SLAVE)SEG.s1,(SLAVE)SW.s1,(MASTER)nios2_gen2_0.data_master,(SLAVE)LED.s1,(SLAVE)SEG_EN.s1) 1 1 2 280 580 660
+preplace netloc EXPORT<net_container>processor</net_container>(SLAVE)processor.seg_en,(SLAVE)SEG_EN.external_connection) 1 0 3 NJ 460 NJ 460 NJ
+preplace netloc EXPORT<net_container>processor</net_container>(SLAVE)clk_0.clk_in,(SLAVE)processor.clk) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>processor</net_container>(SLAVE)LED.reset,(SLAVE)nios2_gen2_0.reset,(SLAVE)SEG_EN.reset,(SLAVE)SW.reset,(SLAVE)jtag_uart_0.reset,(SLAVE)SEG.reset,(SLAVE)onchip_memory2_0.reset1,(MASTER)clk_0.clk_reset) 1 1 2 260 30 700
+preplace netloc POINT_TO_POINT<net_container>processor</net_container>(MASTER)nios2_gen2_0.irq,(SLAVE)jtag_uart_0.irq) 1 2 1 N
+preplace netloc EXPORT<net_container>processor</net_container>(SLAVE)SEG.external_connection,(SLAVE)processor.seg) 1 0 3 NJ 260 NJ 260 NJ
+preplace netloc EXPORT<net_container>processor</net_container>(SLAVE)processor.reset,(SLAVE)clk_0.clk_in_reset) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>processor</net_container>(SLAVE)SEG.clk,(MASTER)clk_0.clk,(SLAVE)onchip_memory2_0.clk1,(SLAVE)SEG_EN.clk,(SLAVE)nios2_gen2_0.clk,(SLAVE)jtag_uart_0.clk,(SLAVE)LED.clk,(SLAVE)SW.clk) 1 1 2 280 50 680
+preplace netloc EXPORT<net_container>processor</net_container>(SLAVE)processor.led,(SLAVE)LED.external_connection) 1 0 3 NJ 560 NJ 560 NJ
+preplace netloc EXPORT<net_container>processor</net_container>(SLAVE)SW.external_connection,(SLAVE)processor.sw) 1 0 3 NJ 360 NJ 360 NJ
+levelinfo -pg 1 0 50 910
+levelinfo -hier processor 60 90 420 750 900
